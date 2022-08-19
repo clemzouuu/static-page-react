@@ -1,0 +1,46 @@
+body {
+    margin: 5% 10% 0 10%;
+    font-family: sans-serif;
+}
+
+.App > * {
+    padding:5% ;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    display: inline;
+    position: relative;
+    bottom: 12px;
+}
+
+.flag {
+    height: 50px;
+    width: 50px;
+    margin-right: 30px;
+}
+
+.border-button {
+    position: relative;
+    top:20px;
+}
+
+.body {
+    margin-top: 50px;
+    font-size: 1.2em;
+    background-position: right bottom;
+}
+
+.sub-title {
+    font-size: 1.5em;
+}
+
+.light-dark-mode {
+    position: relative;
+    top: 20px;
+    left: 70px;
+}
