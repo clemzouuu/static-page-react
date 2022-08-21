@@ -6,7 +6,8 @@ export default function Main () {
 
   function toggleLightMode() {
     setLightMode(prevValue => !prevValue)
-    console.log(lightMode)
+    let changeClass = document.getElementsByClassName("button")
+    changeClass.className = "exemple"
   }
 
   const styles_border = {
@@ -16,16 +17,17 @@ export default function Main () {
     borderRadius: '100px',
     backgroundColor: lightMode ? 'black' : 'white',
     cursor: 'pointer',
+    transitionDuration: '1s',
   }
   const styles_button = {
     width: '20px',
     height: '20px',
     borderRadius: '100%',
-    color: lightMode ? 'white' : 'black',
-    backgroundColor: lightMode ? 'white' : 'black',
+    color: 'transparent',
+    backgroundColor: lightMode ? 'grey' : 'grey',
     cursor: 'pointer',
     position: 'relative',
-    left: lightMode ? '' : '25px'
+    left: lightMode ? '' : '25px',
   }
 
   const styles_main = {
@@ -99,7 +101,7 @@ export default function Main () {
             to the Democratic Republic of Congo in 1997.
           </li>
         </ul>
-      </div>
+      </div> 
     </div>
   )
 }
