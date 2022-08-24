@@ -1,7 +1,7 @@
 # static-page-react
 
 static page with react
-It's basically a static page but with a style variable made in the component. This style displays a light and dark mode
+It's basically a static page but with a style variable made in the component. This style displays a light and dark mode.
 The main component doesn't receive any prop
 
 
